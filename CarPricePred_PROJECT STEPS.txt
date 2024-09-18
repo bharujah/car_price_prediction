@@ -63,8 +63,10 @@ sample data
 
 Explaination of the files available
 ************************************
+Installig cassandra driver - pip install cassandra-driver
 
 cassandra_car.py - I manually imported the data from cardata_input_file.csv file to the cassandra table. 
+toCassandra.py - Created a table in cassandra according to the columns we have
 
 
 
