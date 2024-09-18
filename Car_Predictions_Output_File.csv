@@ -1,0 +1,206 @@
+car_ID,symboling,CarName,fueltype,aspiration,doornumber,carbody,drivewheel,enginelocation,wheelbase,carlength,carwidth,carheight,curbweight,enginetype,cylindernumber,enginesize,fuelsystem,boreratio,stroke,compressionratio,horsepower,peakrpm,citympg,highwaympg,price,Phase,Price Predictions
+1,3,alfa-romero giulia - 1,gas,std,two,convertible,rwd,front,88.6,168.8,64.1,48.8,2548,dohc,four,130,mpfi,3.47,2.68,9.0,111,5000,21,27,13495.0,Existing data,13451.715238248127
+2,3,alfa-romero stelvio - 2,gas,std,two,convertible,rwd,front,88.6,168.8,64.1,48.8,2548,dohc,four,130,mpfi,3.47,2.68,9.0,111,5000,21,27,16500.0,Existing data,13451.117907305143
+3,1,alfa-romero Quadrifoglio - 3,gas,std,two,hatchback,rwd,front,94.5,171.2,65.5,52.4,2823,ohcv,six,152,mpfi,2.68,3.47,9.0,154,5000,19,26,16500.0,New unseen data,16644.131234443736
+4,2,audi 100 ls - 4,gas,std,four,sedan,fwd,front,99.8,176.6,66.2,54.3,2337,ohc,four,109,mpfi,3.19,3.4,10.0,102,5500,24,30,13950.0,Existing data,13289.727328926705
+5,2,audi 100ls - 5,gas,std,four,sedan,4wd,front,99.4,176.6,66.4,54.3,2824,ohc,five,136,mpfi,3.19,3.4,8.0,115,5500,18,22,17450.0,Existing data,14823.129764157024
+6,2,audi fox - 6,gas,std,two,sedan,fwd,front,99.8,177.3,66.3,53.1,2507,ohc,five,136,mpfi,3.19,3.4,8.5,110,5500,19,25,15250.0,Existing data,13880.43556175368
+7,1,audi 100ls - 7,gas,std,four,sedan,fwd,front,105.8,192.7,71.4,55.7,2844,ohc,five,136,mpfi,3.19,3.4,8.5,110,5500,19,25,17710.0,Existing data,14880.559848077415
+8,1,audi 5000 - 8,gas,std,four,wagon,fwd,front,105.8,192.7,71.4,55.7,2954,ohc,five,136,mpfi,3.19,3.4,8.5,110,5500,19,25,18920.0,Existing data,15203.344795641686
+9,1,audi 4000 - 9,gas,turbo,four,sedan,fwd,front,105.8,192.7,71.4,55.9,3086,ohc,five,131,mpfi,3.13,3.4,8.3,140,5500,17,20,23875.0,Existing data,15617.814253238528
+10,0,audi 5000s (diesel) - 10,gas,turbo,two,hatchback,4wd,front,99.5,178.2,67.9,52.0,3053,ohc,five,131,mpfi,3.13,3.4,7.0,160,5500,16,22,17859.167,New unseen data,19458.200485953792
+11,2,bmw 320i - 11,gas,std,two,sedan,rwd,front,101.2,176.8,64.8,54.3,2395,ohc,four,108,mpfi,3.5,2.8,8.8,101,5800,23,29,16430.0,Existing data,13778.6472011716
+12,0,bmw 320i - 12,gas,std,four,sedan,rwd,front,101.2,176.8,64.8,54.3,2395,ohc,four,108,mpfi,3.5,2.8,8.8,101,5800,23,29,16925.0,Existing data,13780.12414951311
+13,0,bmw x1 - 13,gas,std,two,sedan,rwd,front,101.2,176.8,64.8,54.3,2710,ohc,six,164,mpfi,3.31,3.19,9.0,121,4250,21,28,20970.0,New unseen data,21748.896848008328
+14,0,bmw x3 - 14,gas,std,four,sedan,rwd,front,101.2,176.8,64.8,54.3,2765,ohc,six,164,mpfi,3.31,3.19,9.0,121,4250,21,28,21105.0,Existing data,13386.773349980034
+15,1,bmw z4 - 15,gas,std,four,sedan,rwd,front,103.5,189.0,66.9,55.7,3055,ohc,six,164,mpfi,3.31,3.19,9.0,121,4250,20,25,24565.0,Existing data,14245.195482394352
+16,0,bmw x4 - 16,gas,std,four,sedan,rwd,front,103.5,189.0,66.9,55.7,3230,ohc,six,209,mpfi,3.62,3.39,8.0,182,5400,16,22,30760.0,Existing data,16193.728633883658
+17,0,bmw x5 - 17,gas,std,two,sedan,rwd,front,103.5,193.8,67.9,53.7,3380,ohc,six,209,mpfi,3.62,3.39,8.0,182,5400,16,22,41315.0,Existing data,16634.820279499345
+18,0,bmw x3 - 18,gas,std,four,sedan,rwd,front,110.0,197.0,70.9,56.3,3505,ohc,six,209,mpfi,3.62,3.39,8.0,182,5400,15,20,36880.0,Existing data,17007.58047035465
+19,2,chevrolet impala - 19,gas,std,two,hatchback,fwd,front,88.4,141.1,60.3,53.2,1488,l,three,61,2bbl,2.91,3.03,9.5,48,5100,47,53,5151.0,Existing data,10101.657740503659
+20,1,chevrolet monte carlo - 20,gas,std,two,hatchback,fwd,front,94.5,155.9,63.6,52.0,1874,ohc,four,90,2bbl,3.03,3.11,9.6,70,5400,38,43,6295.0,Existing data,11684.802945677593
+21,0,chevrolet vega 2300 - 21,gas,std,four,sedan,fwd,front,94.5,158.8,63.6,52.0,1909,ohc,four,90,2bbl,3.03,3.11,9.6,70,5400,38,43,6575.0,New unseen data,7873.299812505841
+22,1,dodge rampage - 22,gas,std,two,hatchback,fwd,front,93.7,157.3,63.8,50.8,1876,ohc,four,90,2bbl,2.97,3.23,9.41,68,5500,37,41,5572.0,New unseen data,5991.212654161828
+23,1,dodge challenger se - 23,gas,std,two,hatchback,fwd,front,93.7,157.3,63.8,50.8,1876,ohc,four,90,2bbl,2.97,3.23,9.4,68,5500,31,38,6377.0,Existing data,11804.794305446783
+24,1,dodge d200 - 24,gas,turbo,two,hatchback,fwd,front,93.7,157.3,63.8,50.8,2128,ohc,four,98,mpfi,3.03,3.39,7.6,102,5500,24,30,7957.0,Existing data,12624.017907896075
+25,1,dodge monaco (sw) - 25,gas,std,four,hatchback,fwd,front,93.7,157.3,63.8,50.6,1967,ohc,four,90,2bbl,2.97,3.23,9.4,68,5500,31,38,6229.0,Existing data,12071.96944125215
+26,1,dodge colt hardtop - 26,gas,std,four,sedan,fwd,front,93.7,157.3,63.8,50.6,1989,ohc,four,90,2bbl,2.97,3.23,9.4,68,5500,31,38,6692.0,Existing data,12139.330565038448
+27,1,dodge colt (sw) - 27,gas,std,four,sedan,fwd,front,93.7,157.3,63.8,50.6,1989,ohc,four,90,2bbl,2.97,3.23,9.4,68,5500,31,38,7609.0,New unseen data,6642.7902437925495
+28,1,dodge coronet custom - 28,gas,turbo,two,sedan,fwd,front,93.7,157.3,63.8,50.6,2191,ohc,four,98,mpfi,3.03,3.39,7.6,102,5500,24,30,8558.0,Existing data,12810.259250297278
+29,-1,dodge dart custom - 29,gas,std,four,wagon,fwd,front,103.3,174.6,64.6,59.8,2535,ohc,four,122,2bbl,3.34,3.46,8.5,88,5000,24,30,8921.0,Existing data,13336.967521829762
+30,3,dodge coronet custom (sw) - 30,gas,turbo,two,hatchback,fwd,front,95.9,173.2,66.3,50.2,2811,ohc,four,156,mfi,3.6,3.9,7.0,145,5000,19,24,12964.0,Existing data,14307.35658292081
+31,2,honda civic - 31,gas,std,two,hatchback,fwd,front,86.6,144.6,63.9,50.8,1713,ohc,four,92,1bbl,2.91,3.41,9.6,58,4800,49,54,6479.0,New unseen data,5981.716831789169
+32,2,honda civic cvcc - 32,gas,std,two,hatchback,fwd,front,86.6,144.6,63.9,50.8,1819,ohc,four,92,1bbl,2.91,3.41,9.2,76,6000,31,38,6855.0,Existing data,12181.85658605078
+33,1,honda civic - 33,gas,std,two,hatchback,fwd,front,93.7,150.0,64.0,52.6,1837,ohc,four,79,1bbl,2.91,3.07,10.1,60,5500,38,42,5399.0,Existing data,11634.63224600872
+34,1,honda accord cvcc - 34,gas,std,two,hatchback,fwd,front,93.7,150.0,64.0,52.6,1940,ohc,four,92,1bbl,2.91,3.41,9.2,76,6000,30,34,6529.0,Existing data,12540.151082756667
+35,1,honda civic cvcc - 35,gas,std,two,hatchback,fwd,front,93.7,150.0,64.0,52.6,1956,ohc,four,92,1bbl,2.91,3.41,9.2,76,6000,30,34,7129.0,Existing data,12586.698596236589
+36,0,honda accord lx - 36,gas,std,four,sedan,fwd,front,96.5,163.4,64.0,54.5,2010,ohc,four,92,1bbl,2.91,3.41,9.2,76,6000,30,34,7295.0,Existing data,12752.136184540741
+37,0,honda civic 1500 gl - 37,gas,std,four,wagon,fwd,front,96.5,157.1,63.9,58.3,2024,ohc,four,92,1bbl,2.92,3.41,9.2,76,6000,30,34,7295.0,New unseen data,7163.471393955336
+38,0,honda accord - 38,gas,std,two,hatchback,fwd,front,96.5,167.5,65.2,53.3,2236,ohc,four,110,1bbl,3.15,3.58,9.0,86,5800,27,33,7895.0,Existing data,13264.112059948362
+39,0,honda civic 1300 - 39,gas,std,two,hatchback,fwd,front,96.5,167.5,65.2,53.3,2289,ohc,four,110,1bbl,3.15,3.58,9.0,86,5800,27,33,9095.0,Existing data,13419.682026156266
+40,0,honda prelude - 40,gas,std,four,sedan,fwd,front,96.5,175.4,65.2,54.1,2304,ohc,four,110,1bbl,3.15,3.58,9.0,86,5800,27,33,8845.0,Existing data,13468.446582761044
+41,0,honda accord - 41,gas,std,four,sedan,fwd,front,96.5,175.4,62.5,54.1,2372,ohc,four,110,1bbl,3.15,3.58,9.0,86,5800,27,33,10295.0,New unseen data,7539.962171984903
+42,0,honda civic - 42,gas,std,four,sedan,fwd,front,96.5,175.4,65.2,54.1,2465,ohc,four,110,mpfi,3.15,3.58,9.0,101,5800,24,28,12945.0,Existing data,13968.717302563477
+43,1,honda civic (auto) - 43,gas,std,two,sedan,fwd,front,96.5,169.1,66.0,51.0,2293,ohc,four,110,2bbl,3.15,3.58,9.1,100,5500,25,31,10345.0,Existing data,13126.646430410381
+44,0,isuzu MU-X - 44,gas,std,four,sedan,rwd,front,94.3,170.7,61.8,53.5,2337,ohc,four,111,2bbl,3.31,3.23,8.5,78,4800,24,29,6785.0,Existing data,12487.844661200788
+45,1,isuzu D-Max  - 45,gas,std,two,sedan,fwd,front,94.5,155.9,63.6,52.0,1874,ohc,four,90,2bbl,3.03,3.11,9.6,70,5400,38,43,8916.5,Existing data,11673.003965750733
+46,0,isuzu D-Max V-Cross - 46,gas,std,four,sedan,fwd,front,94.5,155.9,63.6,52.0,1909,ohc,four,90,2bbl,3.03,3.11,9.6,70,5400,38,43,8916.5,Existing data,11776.758095338053
+47,2,isuzu D-Max  - 47,gas,std,two,hatchback,rwd,front,96.0,172.6,65.2,51.4,2734,ohc,four,119,spfi,3.43,3.23,9.2,90,5000,24,29,11048.0,Existing data,13903.428449377341
+48,0,jaguar xj - 48,gas,std,four,sedan,rwd,front,113.0,199.6,69.6,52.8,4066,dohc,six,258,mpfi,3.63,4.17,8.1,176,4750,15,19,32250.0,New unseen data,35812.10675170527
+49,0,jaguar xf - 49,gas,std,four,sedan,rwd,front,113.0,199.6,69.6,52.8,4066,dohc,six,258,mpfi,3.63,4.17,8.1,176,4750,15,19,35550.0,Existing data,18071.492091691223
+50,0,jaguar xk - 50,gas,std,two,sedan,rwd,front,102.0,191.7,70.6,47.8,3950,ohcv,twelve,326,mpfi,3.54,2.76,11.5,262,5000,13,17,36000.0,Existing data,18301.157535069073
+51,1,maxda rx3 - 51,gas,std,two,hatchback,fwd,front,93.1,159.1,64.2,54.1,1890,ohc,four,91,2bbl,3.03,3.15,9.0,68,5000,30,31,5195.0,Existing data,11298.352228788457
+52,1,maxda glc deluxe - 52,gas,std,two,hatchback,fwd,front,93.1,159.1,64.2,54.1,1900,ohc,four,91,2bbl,3.03,3.15,9.0,68,5000,31,38,6095.0,Existing data,11325.579099088693
+53,1,mazda rx2 coupe - 53,gas,std,two,hatchback,fwd,front,93.1,159.1,64.2,54.1,1905,ohc,four,91,2bbl,3.03,3.15,9.0,68,5000,31,38,6795.0,Existing data,11339.714532027865
+54,1,mazda rx-4 - 54,gas,std,four,sedan,fwd,front,93.1,166.8,64.2,54.1,1945,ohc,four,91,2bbl,3.03,3.15,9.0,68,5000,31,38,6695.0,Existing data,11461.568907464622
+55,1,mazda glc deluxe - 55,gas,std,four,sedan,fwd,front,93.1,166.8,64.2,54.1,1950,ohc,four,91,2bbl,3.08,3.15,9.0,68,5000,31,38,7395.0,Existing data,11475.743134005537
+56,3,mazda 626 - 56,gas,std,two,hatchback,rwd,front,95.3,169.0,65.7,49.6,2380,rotor,two,70,4bbl,3.33,3.255,9.4,101,6000,17,23,10945.0,Existing data,13808.724523480456
+57,3,mazda glc - 57,gas,std,two,hatchback,rwd,front,95.3,169.0,65.7,49.6,2380,rotor,two,70,4bbl,3.33,3.255,9.4,101,6000,17,23,11845.0,Existing data,13808.12719253747
+58,3,mazda rx-7 gs - 58,gas,std,two,hatchback,rwd,front,95.3,169.0,65.7,49.6,2385,rotor,two,70,4bbl,3.33,3.255,9.4,101,6000,17,23,13645.0,Existing data,13822.262625476646
+59,3,mazda glc 4 - 59,gas,std,two,hatchback,rwd,front,95.3,169.0,65.7,49.6,2500,rotor,two,80,mpfi,3.33,3.255,9.4,135,6000,16,23,15645.0,Existing data,14232.067877554531
+60,1,mazda 626 - 60,gas,std,two,hatchback,fwd,front,98.8,177.8,66.5,53.7,2385,ohc,four,122,2bbl,3.39,3.39,8.6,84,4800,26,32,8845.0,Existing data,12648.270514063142
+61,0,mazda glc custom l - 61,gas,std,four,sedan,fwd,front,98.8,177.8,66.5,55.5,2410,ohc,four,122,2bbl,3.39,3.39,8.6,84,4800,26,32,8495.0,Existing data,12726.921481042515
+62,1,mazda glc custom - 62,gas,std,two,hatchback,fwd,front,98.8,177.8,66.5,53.7,2385,ohc,four,122,2bbl,3.39,3.39,8.6,84,4800,26,32,10595.0,Existing data,12647.075852177175
+63,0,mazda rx-4 - 63,gas,std,four,sedan,fwd,front,98.8,177.8,66.5,55.5,2410,ohc,four,122,2bbl,3.39,3.39,8.6,84,4800,26,32,10245.0,Existing data,12725.726819156545
+64,0,mazda glc deluxe - 64,diesel,std,four,sedan,fwd,front,98.8,177.8,66.5,55.5,2443,ohc,four,122,idi,3.39,3.39,22.7,64,4650,36,42,10795.0,Existing data,12648.200187771792
+65,0,mazda 626 - 65,gas,std,four,hatchback,fwd,front,98.8,177.8,66.5,55.5,2425,ohc,four,122,2bbl,3.39,3.39,8.6,84,4800,26,32,11245.0,Existing data,12765.596155269268
+66,0,mazda glc - 66,gas,std,four,sedan,rwd,front,104.9,175.0,66.1,54.4,2670,ohc,four,140,mpfi,3.76,3.16,8.0,120,5000,19,27,18280.0,Existing data,13812.071972837348
+67,0,mazda rx-7 gs - 67,diesel,std,four,sedan,rwd,front,104.9,175.0,66.1,54.4,2700,ohc,four,134,idi,3.43,3.64,22.0,72,4200,31,39,18344.0,Existing data,12970.388149239152
+68,-1,buick electra 225 custom - 68,diesel,turbo,four,sedan,rwd,front,110.0,190.9,70.3,56.5,3515,ohc,five,183,idi,3.58,3.64,21.5,123,4350,22,25,25552.0,Existing data,15749.951900007924
+69,-1,buick century luxus (sw) - 69,diesel,turbo,four,wagon,rwd,front,110.0,190.9,70.3,58.7,3750,ohc,five,183,idi,3.58,3.64,21.5,123,4350,22,25,28248.0,Existing data,16442.556920914452
+70,0,buick century - 70,diesel,turbo,two,hardtop,rwd,front,106.7,187.5,70.3,54.9,3495,ohc,five,183,idi,3.58,3.64,21.5,123,4350,22,25,28176.0,Existing data,15689.381537848858
+71,-1,buick skyhawk - 71,diesel,turbo,four,sedan,rwd,front,115.6,202.6,71.7,56.3,3770,ohc,five,183,idi,3.58,3.64,21.5,123,4350,22,25,31600.0,Existing data,16500.87224576947
+72,-1,buick opel isuzu deluxe - 72,gas,std,four,sedan,rwd,front,115.6,202.6,71.7,56.5,3740,ohcv,eight,234,mpfi,3.46,3.1,8.3,155,4750,16,18,34184.0,New unseen data,38142.686473895745
+73,3,buick skylark - 73,gas,std,two,convertible,rwd,front,96.6,180.3,70.5,50.8,3685,ohcv,eight,234,mpfi,3.46,3.1,8.3,155,4750,16,18,35056.0,Existing data,16849.673628875644
+74,0,buick century special - 74,gas,std,four,sedan,rwd,front,120.9,208.1,71.7,56.7,3900,ohcv,eight,308,mpfi,3.8,3.35,8.0,184,4500,14,16,40960.0,Existing data,17450.537614165343
+75,1,buick regal sport coupe (turbo) - 75,gas,std,two,hardtop,rwd,front,112.0,199.2,72.0,55.4,3715,ohcv,eight,304,mpfi,3.8,3.35,8.0,184,4500,14,16,45400.0,New unseen data,38858.44432792687
+76,1,mercury cougar - 76,gas,turbo,two,hatchback,rwd,front,102.7,178.4,68.0,54.8,2910,ohc,four,140,mpfi,3.78,3.12,8.0,175,5000,19,24,16503.0,Existing data,14574.782770844373
+77,2,mitsubishi mirage - 77,gas,std,two,hatchback,fwd,front,93.7,157.3,64.4,50.8,1918,ohc,four,92,2bbl,2.97,3.23,9.4,68,5500,37,41,5389.0,Existing data,11891.966665952386
+78,2,mitsubishi lancer - 78,gas,std,two,hatchback,fwd,front,93.7,157.3,64.4,50.8,1944,ohc,four,92,2bbl,2.97,3.23,9.4,68,5500,31,38,6189.0,Existing data,11977.442853776007
+79,2,mitsubishi outlander - 79,gas,std,two,hatchback,fwd,front,93.7,157.3,64.4,50.8,2004,ohc,four,92,2bbl,2.97,3.23,9.4,68,5500,31,38,6669.0,New unseen data,6114.701005298573
+80,1,mitsubishi g4 - 80,gas,turbo,two,hatchback,fwd,front,93.0,157.3,63.8,50.8,2145,ohc,four,98,spdi,3.03,3.39,7.6,102,5500,24,30,7689.0,Existing data,12634.576420147063
+81,3,mitsubishi mirage g4 - 81,gas,turbo,two,hatchback,fwd,front,96.3,173.0,65.4,49.4,2370,ohc,four,110,spdi,3.17,3.46,7.5,116,5500,23,30,9959.0,Existing data,13346.835309751885
+82,3,mitsubishi g4 - 82,gas,std,two,hatchback,fwd,front,96.3,173.0,65.4,49.4,2328,ohc,four,122,2bbl,3.35,3.46,8.5,88,5000,25,32,8499.0,Existing data,12682.455135738815
+83,3,mitsubishi outlander - 83,gas,turbo,two,hatchback,fwd,front,95.9,173.2,66.3,50.2,2833,ohc,four,156,spdi,3.58,3.86,7.0,145,5000,19,24,12629.0,Existing data,14337.901673329314
+84,3,mitsubishi g4 - 84,gas,turbo,two,hatchback,fwd,front,95.9,173.2,66.3,50.2,2921,ohc,four,156,spdi,3.59,3.86,7.0,145,5000,19,24,14869.0,Existing data,14596.608745432684
+85,3,mitsubishi mirage g4 - 85,gas,turbo,two,hatchback,fwd,front,95.9,173.2,66.3,50.2,2926,ohc,four,156,spdi,3.59,3.86,7.0,145,5000,19,24,14489.0,Existing data,14610.744178371853
+86,1,mitsubishi montero - 86,gas,std,four,sedan,fwd,front,96.3,172.4,65.4,51.6,2365,ohc,four,122,2bbl,3.35,3.46,8.5,88,5000,25,32,6989.0,Existing data,12795.713240857058
+87,1,mitsubishi pajero - 87,gas,std,four,sedan,fwd,front,96.3,172.4,65.4,51.6,2405,ohc,four,122,2bbl,3.35,3.46,8.5,88,5000,25,32,8189.0,New unseen data,8218.903880051588
+88,1,mitsubishi outlander - 88,gas,turbo,four,sedan,fwd,front,96.3,172.4,65.4,51.6,2403,ohc,four,110,spdi,3.17,3.46,7.5,116,5500,23,30,9279.0,Existing data,13446.515210935444
+89,-1,mitsubishi mirage g4 - 89,gas,std,four,sedan,fwd,front,96.3,172.4,65.4,51.6,2403,ohc,four,110,spdi,3.17,3.46,7.5,116,5500,23,30,9279.0,Existing data,13443.803297399063
+90,1,Nissan versa - 90,gas,std,two,sedan,fwd,front,94.5,165.3,63.8,54.5,1889,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,5499.0,New unseen data,7293.739761680485
+91,1,nissan gt-r - 91,diesel,std,two,sedan,fwd,front,94.5,165.3,63.8,54.5,2017,ohc,four,103,idi,2.99,3.47,21.9,55,4800,45,50,7099.0,Existing data,11455.657070113732
+92,1,nissan rogue - 92,gas,std,two,sedan,fwd,front,94.5,165.3,63.8,54.5,1918,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,6649.0,Existing data,11591.807083691843
+93,1,nissan latio - 93,gas,std,four,sedan,fwd,front,94.5,165.3,63.8,54.5,1938,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,6849.0,Existing data,11650.510755703379
+94,1,nissan titan - 94,gas,std,four,wagon,fwd,front,94.5,170.2,63.8,53.5,2024,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,7349.0,New unseen data,7123.985487694662
+95,1,nissan leaf - 95,gas,std,two,sedan,fwd,front,94.5,165.3,63.8,54.5,1951,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,7299.0,New unseen data,7046.369429226879
+96,1,nissan juke - 96,gas,std,two,hatchback,fwd,front,94.5,165.6,63.8,53.3,2028,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,7799.0,New unseen data,6912.590801177693
+97,1,nissan latio - 97,gas,std,four,sedan,fwd,front,94.5,165.3,63.8,54.5,1971,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,7499.0,Existing data,11745.357673553688
+98,1,nissan note - 98,gas,std,four,wagon,fwd,front,94.5,170.2,63.8,53.5,2037,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,7999.0,Existing data,11938.502716982253
+99,2,nissan clipper - 99,gas,std,two,hardtop,fwd,front,95.1,162.4,63.8,53.3,2008,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,8249.0,New unseen data,6775.7558165776545
+100,0,nissan rogue - 100,gas,std,four,hatchback,fwd,front,97.2,173.4,65.2,54.7,2324,ohc,four,120,2bbl,3.33,3.47,8.5,97,5200,27,34,8949.0,Existing data,12882.307048166662
+101,0,nissan nv200 - 101,gas,std,four,sedan,fwd,front,97.2,173.4,65.2,54.7,2302,ohc,four,120,2bbl,3.33,3.47,8.5,97,5200,27,34,9549.0,Existing data,12820.019849789958
+102,0,nissan dayz - 102,gas,std,four,sedan,fwd,front,100.4,181.7,66.5,55.1,3095,ohcv,six,181,mpfi,3.43,3.27,9.0,152,5200,17,22,13499.0,Existing data,15417.324515957273
+103,0,nissan fuga - 103,gas,std,four,wagon,fwd,front,100.4,184.6,66.5,56.1,3296,ohcv,six,181,mpfi,3.43,3.27,9.0,152,5200,17,22,14399.0,Existing data,16009.336797908076
+104,0,nissan otti - 104,gas,std,four,sedan,fwd,front,100.4,184.6,66.5,55.1,3060,ohcv,six,181,mpfi,3.43,3.27,9.0,152,5200,19,25,13499.0,Existing data,15310.235160508299
+105,3,nissan teana - 105,gas,std,two,hatchback,rwd,front,91.3,170.7,67.9,49.7,3071,ohcv,six,181,mpfi,3.43,3.27,9.0,160,5200,19,25,17199.0,Existing data,15346.787119294877
+106,3,nissan kicks - 106,gas,turbo,two,hatchback,rwd,front,91.3,170.7,67.9,49.7,3139,ohcv,six,181,mpfi,3.43,3.27,7.8,200,5200,17,23,19699.0,Existing data,15595.19063801292
+107,1,nissan clipper - 107,gas,std,two,hatchback,rwd,front,99.2,178.5,67.9,49.7,3139,ohcv,six,181,mpfi,3.43,3.27,9.0,160,5200,19,25,18399.0,New unseen data,16626.614944513523
+108,0,peugeot 504 - 108,gas,std,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3020,l,four,120,mpfi,3.46,3.19,8.4,97,5000,19,24,11900.0,Existing data,14743.458933390142
+109,0,peugeot 304 - 109,diesel,turbo,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3197,l,four,152,idi,3.7,3.52,21.0,95,4150,28,33,13200.0,Existing data,14443.078622907979
+110,0,peugeot 504 (sw) - 110,gas,std,four,wagon,rwd,front,114.2,198.9,68.4,58.7,3230,l,four,120,mpfi,3.46,3.19,8.4,97,5000,19,24,12440.0,Existing data,15361.990027937463
+111,0,peugeot 504 - 111,diesel,turbo,four,wagon,rwd,front,114.2,198.9,68.4,58.7,3430,l,four,152,idi,3.7,3.52,21.0,95,4150,25,25,13860.0,Existing data,15134.176140027455
+112,0,peugeot 504 - 112,gas,std,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3075,l,four,120,mpfi,3.46,2.19,8.4,95,5000,19,24,15580.0,Existing data,14900.940323490026
+113,0,peugeot 604sl - 113,diesel,turbo,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3252,l,four,152,idi,3.7,3.52,21.0,95,4150,28,33,16900.0,Existing data,14602.749701839792
+114,0,peugeot 504 - 114,gas,std,four,wagon,rwd,front,114.2,198.9,68.4,56.7,3285,l,four,120,mpfi,3.46,2.19,8.4,95,5000,19,24,16695.0,Existing data,15518.106894138913
+115,0,peugeot 505s turbo diesel - 115,diesel,turbo,four,wagon,rwd,front,114.2,198.9,68.4,58.7,3485,l,four,152,idi,3.7,3.52,21.0,95,4150,25,25,17075.0,Existing data,15293.847218959269
+116,0,peugeot 504 - 116,gas,std,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3075,l,four,120,mpfi,3.46,3.19,8.4,97,5000,19,24,16630.0,Existing data,14900.740688550008
+117,0,peugeot 504 - 117,diesel,turbo,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3252,l,four,152,idi,3.7,3.52,21.0,95,4150,28,33,17950.0,New unseen data,15499.56989857447
+118,0,peugeot 604sl - 118,gas,turbo,four,sedan,rwd,front,108.0,186.7,68.3,56.0,3130,l,four,134,mpfi,3.61,3.21,7.0,142,5600,18,24,18150.0,New unseen data,19449.289389826503
+119,1,plymouth fury iii - 119,gas,std,two,hatchback,fwd,front,93.7,157.3,63.8,50.8,1918,ohc,four,90,2bbl,2.97,3.23,9.4,68,5500,37,41,5572.0,Existing data,11861.742604950916
+120,1,plymouth cricket - 120,gas,turbo,two,hatchback,fwd,front,93.7,157.3,63.8,50.8,2128,ohc,four,98,spdi,3.03,3.39,7.6,102,5500,24,30,7957.0,Existing data,12560.43667680585
+121,1,plymouth fury iii - 121,gas,std,four,hatchback,fwd,front,93.7,157.3,63.8,50.6,1967,ohc,four,90,2bbl,2.97,3.23,9.4,68,5500,31,38,6229.0,Existing data,12014.625670725523
+122,1,plymouth satellite custom (sw) - 122,gas,std,four,sedan,fwd,front,93.7,167.3,63.8,50.8,1989,ohc,four,90,2bbl,2.97,3.23,9.4,68,5500,31,38,6692.0,New unseen data,6734.28000658032
+123,1,plymouth fury gran sedan - 123,gas,std,four,sedan,fwd,front,93.7,167.3,63.8,50.8,2191,ohc,four,98,2bbl,2.97,3.23,9.4,68,5500,31,38,7609.0,New unseen data,7116.404966974505
+124,-1,plymouth valiant - 124,gas,std,four,wagon,fwd,front,103.3,174.6,64.6,59.8,2535,ohc,four,122,2bbl,3.35,3.46,8.5,88,5000,24,30,8921.0,Existing data,13280.22884096647
+125,3,plymouth duster - 125,gas,turbo,two,hatchback,rwd,front,95.9,173.2,66.3,50.2,2818,ohc,four,156,spdi,3.59,3.86,7.0,145,5000,19,24,12764.0,Existing data,14273.351254116646
+126,3,porsche macan - 126,gas,std,two,hatchback,rwd,front,94.5,168.9,68.3,50.2,2778,ohc,four,151,mpfi,3.94,3.11,9.5,143,5500,19,27,22018.0,Existing data,14683.739794720765
+127,3,porcshce panamera - 127,gas,std,two,hardtop,rwd,rear,89.5,168.9,65.0,51.6,2756,ohcf,six,194,mpfi,3.74,2.9,9.5,207,5900,17,25,32528.0,Existing data,15254.74192912722
+128,3,porsche cayenne - 128,gas,std,two,hardtop,rwd,rear,89.5,168.9,65.0,51.6,2756,ohcf,six,194,mpfi,3.74,2.9,9.5,207,5900,17,25,34028.0,Existing data,15254.144598184233
+129,3,porsche boxter - 129,gas,std,two,convertible,rwd,rear,89.5,168.9,65.0,51.6,2800,ohcf,six,194,mpfi,3.74,2.9,9.5,207,5900,17,25,37028.0,Existing data,15383.775693397021
+130,1,porsche cayenne - 130,gas,std,two,hatchback,rwd,front,98.4,175.7,72.3,50.5,3366,dohcv,eight,203,mpfi,3.94,3.11,10.0,288,5750,17,28,31400.5,Existing data,17006.426815119594
+131,0,renault 12tl - 131,gas,std,four,wagon,fwd,front,96.1,181.5,66.5,55.2,2579,ohc,four,132,mpfi,3.46,3.9,8.7,90,5100,23,31,9295.0,Existing data,13550.790180948174
+132,2,renault 5 gtl - 132,gas,std,two,hatchback,fwd,front,96.1,176.8,66.6,50.5,2460,ohc,four,132,mpfi,3.46,3.9,8.7,90,5100,23,31,9895.0,New unseen data,9262.314489186454
+133,3,saab 99e - 133,gas,std,two,hatchback,fwd,front,99.1,186.6,66.5,56.1,2658,ohc,four,121,mpfi,3.54,3.07,9.31,110,5250,21,28,11850.0,New unseen data,13178.043125582653
+134,2,saab 99le - 134,gas,std,four,sedan,fwd,front,99.1,186.6,66.5,56.1,2695,ohc,four,121,mpfi,3.54,3.07,9.3,110,5250,21,28,12170.0,Existing data,14046.966448600768
+135,3,saab 99le - 135,gas,std,two,hatchback,fwd,front,99.1,186.6,66.5,56.1,2707,ohc,four,121,mpfi,2.54,2.07,9.3,110,5250,21,28,15040.0,New unseen data,14026.022816810257
+136,2,saab 99gle - 136,gas,std,four,sedan,fwd,front,99.1,186.6,66.5,56.1,2758,ohc,four,121,mpfi,3.54,3.07,9.3,110,5250,21,28,15510.0,Existing data,14231.404611630005
+137,3,saab 99gle - 137,gas,turbo,two,hatchback,fwd,front,99.1,186.6,66.5,56.1,2808,dohc,four,121,mpfi,3.54,3.07,9.0,160,5500,19,26,18150.0,Existing data,14706.385133304182
+138,2,saab 99e - 138,gas,turbo,four,sedan,fwd,front,99.1,186.6,66.5,56.1,2847,dohc,four,121,mpfi,3.54,3.07,9.0,160,5500,19,26,18620.0,New unseen data,16459.185651748667
+139,2,subaru - 139,gas,std,two,hatchback,fwd,front,93.7,156.9,63.4,53.7,2050,ohcf,four,97,2bbl,3.62,2.36,9.0,69,4900,31,36,5118.0,Existing data,11625.843845638232
+140,2,subaru dl - 140,gas,std,two,hatchback,fwd,front,93.7,157.9,63.6,53.7,2120,ohcf,four,108,2bbl,3.62,2.64,8.7,73,4400,26,31,7053.0,Existing data,11336.208570009205
+141,2,subaru dl - 141,gas,std,two,hatchback,4wd,front,93.3,157.3,63.8,55.7,2240,ohcf,four,108,2bbl,3.62,2.64,8.7,73,4400,26,31,7603.0,Existing data,11691.128422910468
+142,0,subaru - 142,gas,std,four,sedan,fwd,front,97.2,172.0,65.4,52.5,2145,ohcf,four,108,2bbl,3.62,2.64,9.5,82,4800,32,37,7126.0,Existing data,11847.151930614311
+143,0,subaru brz - 143,gas,std,four,sedan,fwd,front,97.2,172.0,65.4,52.5,2190,ohcf,four,108,2bbl,3.62,2.64,9.5,82,4400,28,33,7775.0,Existing data,11555.184071132178
+144,0,subaru baja - 144,gas,std,four,sedan,fwd,front,97.2,172.0,65.4,52.5,2340,ohcf,four,108,mpfi,3.62,2.64,9.0,94,5200,26,32,9960.0,Existing data,12878.409717489627
+145,0,subaru r1 - 145,gas,std,four,sedan,4wd,front,97.0,172.0,65.4,54.3,2385,ohcf,four,108,2bbl,3.62,2.64,9.0,82,4800,24,25,9233.0,Existing data,12566.29203731869
+146,0,subaru r2 - 146,gas,turbo,four,sedan,4wd,front,97.0,172.0,65.4,54.3,2510,ohcf,four,108,mpfi,3.62,2.64,7.7,111,4800,24,29,11259.0,Existing data,12973.234306096143
+147,0,subaru trezia - 147,gas,std,four,wagon,fwd,front,97.0,173.5,65.4,53.0,2290,ohcf,four,108,2bbl,3.62,2.64,9.0,82,4800,28,32,7463.0,Existing data,12276.993250497328
+148,0,subaru tribeca - 148,gas,std,four,wagon,fwd,front,97.0,173.5,65.4,53.0,2455,ohcf,four,108,mpfi,3.62,2.64,9.0,94,5200,25,31,10198.0,New unseen data,9225.854270508022
+149,0,subaru dl - 149,gas,std,four,wagon,4wd,front,96.9,173.6,65.4,54.9,2420,ohcf,four,108,2bbl,3.62,2.64,9.0,82,4800,23,29,8013.0,Existing data,12668.483367141609
+150,0,subaru dl - 150,gas,turbo,four,wagon,4wd,front,96.9,173.6,65.4,54.9,2650,ohcf,four,108,mpfi,3.62,2.64,7.7,111,4800,23,23,11694.0,Existing data,13384.91234732831
+151,1,toyota corona mark ii - 151,gas,std,two,hatchback,fwd,front,95.7,158.7,63.6,54.5,1985,ohc,four,92,2bbl,3.05,3.03,9.0,62,4800,35,39,5348.0,New unseen data,6583.434706966884
+152,1,toyota corona - 152,gas,std,two,hatchback,fwd,front,95.7,158.7,63.6,54.5,2040,ohc,four,92,2bbl,3.05,3.03,9.0,62,4800,31,38,6338.0,Existing data,11458.704421782786
+153,1,toyota corolla 1200 - 153,gas,std,four,hatchback,fwd,front,95.7,158.7,63.6,54.5,2015,ohc,four,92,2bbl,3.05,3.03,9.0,62,4800,31,38,6488.0,Existing data,11384.813218854886
+154,0,toyota corona hardtop - 154,gas,std,four,wagon,fwd,front,95.7,169.7,63.6,59.1,2280,ohc,four,92,2bbl,3.05,3.03,9.0,62,4800,31,37,6918.0,Existing data,12172.999084367682
+155,0,toyota corolla 1600 (sw) - 155,gas,std,four,wagon,4wd,front,95.7,169.7,63.6,59.1,2290,ohc,four,92,2bbl,3.05,3.03,9.0,62,4800,27,32,7898.0,Existing data,12208.615123598247
+156,0,toyota carina - 156,gas,std,four,wagon,4wd,front,95.7,169.7,63.6,59.1,3110,ohc,four,92,2bbl,3.05,3.03,9.0,62,4800,27,32,8778.0,Existing data,14624.191069329387
+157,0,toyota mark ii - 157,gas,std,four,sedan,fwd,front,95.7,166.3,64.4,53.0,2081,ohc,four,98,2bbl,3.19,3.03,9.0,70,4800,30,37,6938.0,Existing data,11608.449975305422
+158,0,toyota corolla 1200 - 158,gas,std,four,hatchback,fwd,front,95.7,166.3,64.4,52.8,2109,ohc,four,98,2bbl,3.19,3.03,9.0,70,4800,30,37,7198.0,Existing data,11687.085376064904
+159,0,toyota corona - 159,diesel,std,four,sedan,fwd,front,95.7,166.3,64.4,53.0,2275,ohc,four,110,idi,3.27,3.35,22.5,56,4500,34,36,7898.0,New unseen data,7989.5663583796895
+160,0,toyota corolla - 160,diesel,std,four,hatchback,fwd,front,95.7,166.3,64.4,52.8,2275,ohc,four,110,idi,3.27,3.35,22.5,56,4500,38,47,7788.0,Existing data,11881.61750225788
+161,0,toyota corona - 161,gas,std,four,sedan,fwd,front,95.7,166.3,64.4,53.0,2094,ohc,four,98,2bbl,3.19,3.03,9.0,70,4800,38,47,7738.0,Existing data,11631.689106924252
+162,0,toyota corolla - 162,gas,std,four,hatchback,fwd,front,95.7,166.3,64.4,52.8,2122,ohc,four,98,2bbl,3.19,3.03,9.0,70,4800,28,34,8358.0,Existing data,11726.17535455648
+163,0,toyota mark ii - 163,gas,std,four,sedan,fwd,front,95.7,166.3,64.4,52.8,2140,ohc,four,98,2bbl,3.19,3.03,9.0,70,4800,28,34,9258.0,Existing data,11781.75026723705
+164,1,toyota corolla liftback - 164,gas,std,two,sedan,rwd,front,94.5,168.7,64.0,52.6,2169,ohc,four,98,2bbl,3.19,3.03,9.0,70,4800,29,34,8058.0,Existing data,11868.698770387633
+165,1,toyota corona - 165,gas,std,two,hatchback,rwd,front,94.5,168.7,64.0,52.6,2204,ohc,four,98,2bbl,3.19,3.03,9.0,70,4800,29,34,8238.0,Existing data,11968.09649297198
+166,1,toyota celica gt liftback - 166,gas,std,two,sedan,rwd,front,94.5,168.7,64.0,52.6,2265,dohc,four,98,mpfi,3.24,3.08,9.4,112,6600,26,29,9298.0,New unseen data,9883.74044805865
+167,1,toyota corolla tercel - 167,gas,std,two,hatchback,rwd,front,94.5,168.7,64.0,52.6,2300,dohc,four,98,mpfi,3.24,3.08,9.4,112,6600,26,29,9538.0,Existing data,14245.60426903594
+168,2,toyota corona liftback - 168,gas,std,two,hardtop,rwd,front,98.4,176.2,65.6,52.0,2540,ohc,four,146,mpfi,3.62,3.5,9.3,116,4800,24,30,8449.0,Existing data,13157.975182176006
+169,2,toyota corolla - 169,gas,std,two,hardtop,rwd,front,98.4,176.2,65.6,52.0,2536,ohc,four,146,mpfi,3.62,3.5,9.3,116,4800,24,30,9639.0,Existing data,13145.591640127292
+170,2,toyota starlet - 170,gas,std,two,hatchback,rwd,front,98.4,176.2,65.6,52.0,2551,ohc,four,146,mpfi,3.62,3.5,9.3,116,4800,24,30,9989.0,New unseen data,10052.646404383908
+171,2,toyota tercel - 171,gas,std,two,hardtop,rwd,front,98.4,176.2,65.6,52.0,2679,ohc,four,146,mpfi,3.62,3.5,9.3,116,4800,24,30,11199.0,Existing data,13565.754025271075
+172,2,toyota corolla - 172,gas,std,two,hatchback,rwd,front,98.4,176.2,65.6,52.0,2714,ohc,four,146,mpfi,3.62,3.5,9.3,116,4800,24,30,11549.0,Existing data,13663.534638215398
+173,2,toyota cressida - 173,gas,std,two,convertible,rwd,front,98.4,176.2,65.6,53.0,2975,ohc,four,146,mpfi,3.62,3.5,9.3,116,4800,24,30,17669.0,New unseen data,12188.88248064931
+174,-1,toyota corolla - 174,gas,std,four,sedan,fwd,front,102.4,175.6,66.5,54.9,2326,ohc,four,122,mpfi,3.31,3.54,8.7,92,4200,29,34,8948.0,Existing data,11775.539957612213
+175,-1,toyota celica gt - 175,diesel,turbo,four,sedan,fwd,front,102.4,175.6,66.5,54.9,2480,ohc,four,110,idi,3.27,3.35,22.5,73,4500,30,33,10698.0,New unseen data,10676.567305473667
+176,-1,toyota corona - 176,gas,std,four,hatchback,fwd,front,102.4,175.6,66.5,53.9,2414,ohc,four,122,mpfi,3.31,3.54,8.7,92,4200,27,32,9988.0,Existing data,12032.989633636762
+177,-1,toyota corolla - 177,gas,std,four,sedan,fwd,front,102.4,175.6,66.5,54.9,2414,ohc,four,122,mpfi,3.31,3.54,8.7,92,4200,27,32,10898.0,New unseen data,10123.452885130098
+178,-1,toyota mark ii - 178,gas,std,four,hatchback,fwd,front,102.4,175.6,66.5,53.9,2458,ohc,four,122,mpfi,3.31,3.54,8.7,92,4200,27,32,11248.0,New unseen data,10094.436303235612
+179,3,toyota corolla liftback - 179,gas,std,two,hatchback,rwd,front,102.9,183.5,67.7,52.0,2976,dohc,six,171,mpfi,3.27,3.35,9.3,161,5200,20,24,16558.0,Existing data,14994.626489759768
+180,3,toyota corona - 180,gas,std,two,hatchback,rwd,front,102.9,183.5,67.7,52.0,3016,dohc,six,171,mpfi,3.27,3.35,9.3,161,5200,19,24,15998.0,New unseen data,16859.852068148233
+181,-1,toyota starlet - 181,gas,std,four,sedan,rwd,front,104.5,187.8,66.5,54.1,3131,dohc,six,171,mpfi,3.27,3.35,9.2,156,5200,20,24,15690.0,Existing data,15452.312039616438
+182,-1,toyouta tercel - 182,gas,std,four,wagon,rwd,front,104.5,187.8,66.5,54.1,3151,dohc,six,161,mpfi,3.27,3.35,9.2,156,5200,19,24,15750.0,Existing data,15483.829699131584
+183,2,vokswagen rabbit - 183,diesel,std,two,sedan,fwd,front,97.3,171.7,65.5,55.7,2261,ohc,four,97,idi,3.01,3.4,23.0,52,4800,37,46,7775.0,Existing data,12115.375573712194
+184,2,volkswagen 1131 deluxe sedan - 184,gas,std,two,sedan,fwd,front,97.3,171.7,65.5,55.7,2209,ohc,four,109,mpfi,3.19,3.4,9.0,85,5250,27,34,7975.0,Existing data,12511.701600003287
+185,2,volkswagen model 111 - 185,diesel,std,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2264,ohc,four,97,idi,3.01,3.4,23.0,52,4800,37,46,7995.0,Existing data,12123.390517581398
+186,2,volkswagen type 3 - 186,gas,std,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2212,ohc,four,109,mpfi,3.19,3.4,9.0,85,5250,27,34,8195.0,Existing data,12519.716543872495
+187,2,volkswagen 411 (sw) - 187,gas,std,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2275,ohc,four,109,mpfi,3.19,3.4,9.0,85,5250,27,34,8495.0,Existing data,12704.752037844715
+188,2,volkswagen super beetle - 188,diesel,turbo,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2319,ohc,four,97,idi,3.01,3.4,23.0,68,4500,37,42,9495.0,Existing data,11982.051863251121
+189,2,volkswagen dasher - 189,gas,std,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2300,ohc,four,109,mpfi,3.19,3.4,10.0,100,5500,26,32,9995.0,Existing data,13065.161212631521
+190,3,vw dasher - 190,gas,std,two,convertible,fwd,front,94.5,159.3,64.2,55.6,2254,ohc,four,109,mpfi,3.19,3.4,8.5,90,5500,24,29,11595.0,Existing data,12918.341851070345
+191,3,vw rabbit - 191,gas,std,two,hatchback,fwd,front,94.5,165.7,64.0,51.4,2221,ohc,four,109,mpfi,3.19,3.4,8.5,90,5500,24,29,9980.0,Existing data,12813.06059426993
+192,0,volkswagen rabbit - 192,gas,std,four,sedan,fwd,front,100.4,180.2,66.9,55.1,2661,ohc,five,136,mpfi,3.19,3.4,8.5,110,5500,19,24,13295.0,Existing data,14227.283991976652
+193,0,volkswagen rabbit custom - 193,diesel,turbo,four,sedan,fwd,front,100.4,180.2,66.9,55.1,2579,ohc,four,97,idi,3.01,3.4,23.0,68,4500,33,38,13845.0,New unseen data,12195.227490506708
+194,0,volkswagen dasher - 194,gas,std,four,wagon,fwd,front,100.4,183.1,66.9,55.1,2563,ohc,four,109,mpfi,3.19,3.4,9.0,88,5500,25,31,12290.0,Existing data,13827.066987285561
+195,-2,volvo 145e (sw) - 195,gas,std,four,sedan,rwd,front,104.3,188.8,67.2,56.2,2912,ohc,four,141,mpfi,3.78,3.15,9.5,114,5400,23,28,12940.0,Existing data,14876.09417465036
+196,-1,volvo 144ea - 196,gas,std,four,wagon,rwd,front,104.3,188.8,67.2,57.5,3034,ohc,four,141,mpfi,3.78,3.15,9.5,114,5400,23,28,13415.0,Existing data,15234.272530136486
+197,-2,volvo 244dl - 197,gas,std,four,sedan,rwd,front,104.3,188.8,67.2,56.2,2935,ohc,four,141,mpfi,3.78,3.15,9.5,114,5400,24,28,15985.0,New unseen data,13610.305648395793
+198,-1,volvo 245 - 198,gas,std,four,wagon,rwd,front,104.3,188.8,67.2,57.5,3042,ohc,four,141,mpfi,3.78,3.15,9.5,114,5400,24,28,16515.0,Existing data,15255.078032859601
+199,-2,volvo 264gl - 199,gas,turbo,four,sedan,rwd,front,104.3,188.8,67.2,56.2,3045,ohc,four,130,mpfi,3.62,3.15,7.5,162,5100,17,22,18420.0,Existing data,14974.938043201637
+200,-1,volvo diesel - 200,gas,turbo,four,wagon,rwd,front,104.3,188.8,67.2,57.5,3157,ohc,four,130,mpfi,3.62,3.15,7.5,162,5100,17,22,18950.0,Existing data,15303.650870923448
+201,-1,volvo 145e (sw) - 201,gas,std,four,sedan,rwd,front,109.1,188.8,68.9,55.5,2952,ohc,four,141,mpfi,3.78,3.15,9.5,114,5400,23,28,16845.0,Existing data,14989.277659962328
+202,-1,volvo 144ea - 202,gas,turbo,four,sedan,rwd,front,109.1,188.8,68.8,55.5,3049,ohc,four,141,mpfi,3.78,3.15,8.7,160,5300,19,25,19045.0,Existing data,15225.601456047207
+203,-1,volvo 244dl - 203,gas,std,four,sedan,rwd,front,109.1,188.8,68.9,55.5,3012,ohcv,six,173,mpfi,3.58,2.87,8.8,134,5500,18,23,21485.0,Existing data,15398.652080558131
+204,-1,volvo 246 - 204,diesel,turbo,four,sedan,rwd,front,109.1,188.8,68.9,55.5,3217,ohc,six,145,idi,3.01,3.4,23.0,106,4800,26,27,22470.0,New unseen data,20442.231739804065
+205,-1,volvo 264gl - 205,gas,turbo,four,sedan,rwd,front,109.1,188.8,68.9,55.5,3062,ohc,four,141,mpfi,3.78,3.15,9.5,114,5400,19,25,22625.0,Existing data,15321.146687424538

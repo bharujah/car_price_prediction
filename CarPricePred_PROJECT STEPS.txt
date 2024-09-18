@@ -1,0 +1,69 @@
+ECOM PROJECT STEPS
+------------------
+1. Start the zookeeper
+bin/zookeeper-server-start.sh config/zookeeper.properties
+2. Start the kafka server
+bin/kafka-server-start.sh config/server.properties
+3. Create the Kafka topic
+ bin/kafka-topics.sh --create --topic CarTopic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+4. List the kafka topic
+bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+5.run producer
+bin/kafka-console-producer.sh  --bootstrap-server localhost:9092 --topic CarTopic
+6. run the consumer
+bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic CarTopic --from-beginning
+
+
+start spark
+-----------
+1. sbin.start-all.sh (it will start the master and worker)
+
+start cassandra
+----------------
+running in foreground ->   bin/cassandra -f
+running in background ->   nuhup: bin/cassandra -f >> nuhup.out &
+To get the cassandra shell/repel -> bin/cqlsh.py
+
+Cassandra create db
+-----------------------
+create keyspace cardata with replication = {'class':'SimpleStrategy','replication_factor':1};
+
+to switch the table -->   use ecomdata;
+
+cassandra create table
+----------------------
+CREATE TABLE cust_data (fname text, lname text, url text, product text, cnt counter, primary key(fname, lname, url, product));
+
+SELECT * from cust_data;
+
+Delete the temp file from spark streaming to avoid capturing deteleted topic data
+---------------------------------------------------------------------------------
+rm -rf /tmp/spark/checkpoint\\
+
+#running the spark shell
+#spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.0,com.datastax.spark:spark-cassandra-connector_2.12:3.1.0 /home/balendran/stockprice_prediction/kafkatoSpark_Car.py
+
+
+copy csv data to cassandra
+-----------------------------
+COPY ecomdata.cust_data (fname, lname, url, product, cnt)
+FROM 'path_to_your_file.csv'
+WITH HEADER = TRUE;
+
+SELECT * FROM car_data WHERE car_id = 1 ORDER BY car_id ASC;
+
+create table 
+------------
+
+
+sample data
+----------------------
+208,-1,volvo 264gl,gas,turbo,four,sedan,rwd,front,109.1,188.8,68.9,55.5,3062,ohc,four,141,mpfi,3.78,3.15,9.5,114,5400,19,25,22625
+
+
+
+
+
+
+
+ 
